@@ -1,0 +1,83 @@
+body {
+  background-color: #fffaf2;
+
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+li {
+
+  float: left;
+
+  
+
+}
+.dere {
+  float: right;
+}
+
+.sub {
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 169px;
+
+}
+
+.dere:hover>.sub {
+
+  display: grid;
+  position: absolute;
+
+
+}
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+
+  background-color: #6959A6;
+
+}
+.m{
+  height: 60px;
+  margin: auto;
+  display: block;
+ margin-right: 730px;
+ padding: 2px;
+  
+}
+
+.mayo{
+  width: 300px;
+  display: block;
+ margin: 90px;
+ align-items: center;
+ float: left;
+
+}
+#maestro{
+  width: 300px;
+  height: 500px;
+}
+
+.mes{
+  text-align: center;
+  font-size: 100px;
+}
+
+

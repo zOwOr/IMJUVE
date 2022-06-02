@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body {
+  background-color: #fffaf2;
+
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+
+  float: left;
+
+}
+
+.dere {
+  float: right;
+}
+
+
+.sub {
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 169px;
+
+}
+
+.dere:hover>.sub {
+
+  display: grid;
+  position: absolute;
+
+
+}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+
+  background-color: #6959A6;
+
+}
+
+.m {
+  height: 60px;
+  margin: auto;
+  display: block;
+  margin-right: 730px;
+  padding: 2px;
+
+}
+.obj{
+ background-color: #fffaf2;
+
+}
+
+.contenedor{
+  
+  width: 200px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  line-height: 40px;
+  margin: auto;
+
+  overflow: hidden;
+  position: absolute;
+  top: -240px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+font-family: 'Koulen', cursive;
+
+
+
+}
+.jovenes
+{
+  margin-left: 20px;
+  font-family: 'Koulen', cursive;
+}
+.Apoyamos{
+  font-size: 40px;
+}
+.animacion{
+list-style: none;
+padding-left: 10px;
+animation: cambiar 7s infinite;
+background-color: #fffaf2;
+background-image: url("../img/fondoo.png");
+background-position: center;
+background-size: auto;
+background-repeat: no-repeat;
+background-position-x:left
+
+}
+
+.animacion .apoyamos{
+  margin: 0;
+}
+
+h1{
+
+  font-size: 43px;
+  text-align: center;
+  
+}
+
+h1::before,h1::after{
+  content:'';
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  margin-top: 0.6em;
+}
+
+h1::before{
+  left:540px;
+}
+h1::after{
+
+  right: 530px;
+}
+
+p{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+
+  text-align: center;
+}
+
+
+
+
+
+@keyframes cambiar{
+  0%{margin-top:0px;}
+  20%{margin-top:0px;}
+
+  25%{margin-top: -40px;}
+  50%{ margin-top: -40px;}
+
+  55%{ margin-top: 0px;}
+  80%{ margin-top: 0px;}
+
+  85%{ margin-top: -40px;}
+  95%{ margin-top: -40px;}
+
+  100%{ margin-top: 0px;}
+}
